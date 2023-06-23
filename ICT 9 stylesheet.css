@@ -1,0 +1,113 @@
+body {
+  background-image: url("file:///Users/daisychen/Documents/Wallpapers/6574814.jpg");
+  background-repeat: no repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 20px;
+}
+
+h1 {
+  color: darkgoldenrod;
+  font-size: 400%;
+  font-family: Avenir;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px rgb(205, 158, 39);
+  text-align: center;
+}
+
+h2 {
+  font-family: "futura";
+}
+
+p {
+  font-family: "futura";
+}
+
+li {
+  font-family: "futura";
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navBar {
+  background-color: rgb(196, 146, 242);
+}
+
+.navBarList {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Box {
+  border: 8px solid rgb(196, 146, 242);
+  background-color: rgb(210, 170, 248, 0.5);
+  padding: 20px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 22%;
+}
+
+.column.middle {
+  width: 50%;
+  text-align: center;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#DeadRat {
+  width: 280px;
+  height: 350px;
+  border: 10px solid seagreen;
+}
+
+.pictureSide {
+  width: 320px;
+  height: 200px;
+}
+
+.pictureMiddle {
+  width: 600px;
+  height: 400px;
+}
+
+#Page2Body {
+  background-image: url("file:///Users/daisychen/Downloads/pexels-photo-868514.jpeg");
+  background-repeat: no repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a:link {
+  color: rgb(255, 14, 130);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(255, 14, 130);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(244, 96, 201);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: rgb(43, 192, 190);
+  background-color: transparent;
+  text-decoration: none;
+}
